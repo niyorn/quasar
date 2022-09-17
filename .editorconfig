@@ -852,14 +852,27 @@ ij_html_keep_line_breaks_in_text = true
 ij_html_keep_whitespaces = false
 ij_html_keep_whitespaces_inside = span,pre,textarea
 ij_html_line_comment_at_first_column = true
-ij_html_new_line_after_last_attribute = never
-ij_html_new_line_before_first_attribute = never
-ij_html_quote_style = double
+ij_html_new_line_after_last_attribute = when_multiline
+ij_html_new_line_before_first_attribute = when_multiline
+ij_html_quote_style = single
 ij_html_remove_new_line_before_tags = br
 ij_html_space_after_tag_name = false
 ij_html_space_around_equality_in_attribute = false
-ij_html_space_inside_empty_tag = false
+ij_html_space_inside_empty_tag = true
 ij_html_text_wrap = normal
+
+[{*.jstd,jsTestDriver.conf}]
+indent_size = 2
+ij_yaml_align_values_properties = do_not_align
+ij_yaml_autoinsert_sequence_marker = true
+ij_yaml_block_mapping_on_new_line = false
+ij_yaml_indent_sequence_value = true
+ij_yaml_keep_indents_on_empty_lines = false
+ij_yaml_keep_line_breaks = true
+ij_yaml_sequence_on_new_line = false
+ij_yaml_space_before_colon = false
+ij_yaml_spaces_within_braces = true
+ij_yaml_spaces_within_brackets = true
 
 [{*.markdown,*.md}]
 ij_markdown_force_one_space_after_blockquote_symbol = true
@@ -877,16 +890,3 @@ ij_markdown_min_lines_around_header = 1
 ij_markdown_min_lines_between_paragraphs = 1
 ij_markdown_wrap_text_if_long = true
 ij_markdown_wrap_text_inside_blockquotes = true
-
-[{*.yaml,*.yml}]
-indent_size = 2
-ij_yaml_align_values_properties = do_not_align
-ij_yaml_autoinsert_sequence_marker = true
-ij_yaml_block_mapping_on_new_line = false
-ij_yaml_indent_sequence_value = true
-ij_yaml_keep_indents_on_empty_lines = false
-ij_yaml_keep_line_breaks = true
-ij_yaml_sequence_on_new_line = false
-ij_yaml_space_before_colon = false
-ij_yaml_spaces_within_braces = true
-ij_yaml_spaces_within_brackets = true
